@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:6.2.6
 
 COPY sentinel.conf /usr/local/etc/sentinel.conf
 
