@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:6.2.6
 
 COPY replica.conf /usr/local/etc/redis.conf
 
